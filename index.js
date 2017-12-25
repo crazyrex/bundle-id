@@ -1,5 +1,5 @@
 'use strict';
-const runApplescript = require('run-applescript');
+const runApplescript = require('@marionebl/run-applescript');
 
 module.exports = bundleName => runApplescript(`get id of application "${bundleName}"`);
 
